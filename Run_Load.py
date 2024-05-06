@@ -73,4 +73,4 @@ def on_test_stop(environment, **kwargs):
 
 if __name__ == "__main__":
     import os
-    os.system("locust -f this_script_name.py")  # Replace `this_script_name.py` with the actual name of this script
+    os.system("locust -f Run_Load.py")  # Replace `this_script_name.py` with the actual name of this script
