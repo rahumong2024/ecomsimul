@@ -3,7 +3,7 @@ from faker import Faker
 import random
 
 # Connection string
-connection_string = "mongodb+srv://rahulverma:09Ph2007@ajfa02.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000&socketTimeoutMS=60000&connectTimeoutMS=60000&directConnection=false"
+connection_string = "ADD YOUR CONNECTION STRING HERE"
 client = pymongo.MongoClient(connection_string)
 
 # Set up the database
